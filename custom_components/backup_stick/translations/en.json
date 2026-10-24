@@ -1,0 +1,17 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Choose a USB stick",
+        "description": "Backups are stored in a folder named HomeAssistant-backups on the stick. Nothing else on it is touched.",
+        "data": {
+          "uuid": "USB stick"
+        }
+      }
+    },
+    "abort": {
+      "no_sticks": "No usable USB stick was found. Plug in a stick formatted as FAT32, exFAT or ext4, then try again.",
+      "already_configured": "This USB stick is already set up."
+    }
+  }
+}

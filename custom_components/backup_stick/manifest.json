@@ -1,0 +1,13 @@
+{
+  "domain": "backup_stick",
+  "name": "Backup Stick",
+  "codeowners": ["@SpuQ"],
+  "config_flow": true,
+  "dependencies": ["backup"],
+  "documentation": "https://github.com/SpuQ/HomeAssistant-BackupStick",
+  "integration_type": "service",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/SpuQ/HomeAssistant-BackupStick/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
