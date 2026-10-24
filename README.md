@@ -1,5 +1,10 @@
 # Backup Stick
 
+[![HACS Custom](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
+[![GitHub Release](https://img.shields.io/github/v/release/SpuQ/HomeAssistant-BackupStick)](https://github.com/SpuQ/HomeAssistant-BackupStick/releases)
+[![Home Assistant](https://img.shields.io/badge/Home%20Assistant-2026.10%2B-41BDF5?logo=home-assistant&logoColor=white)](https://www.home-assistant.io)
+[![License](https://img.shields.io/github/license/SpuQ/HomeAssistant-BackupStick)](LICENSE.txt)
+
 **Backup Stick** is a custom integration for Home Assistant that adds a USB stick, plugged into the Home Assistant machine, as a backup location.
 
 The stick shows up under *Settings → System → Backups* next to the backups kept on the machine itself. Home Assistant's own automatic backups, retention ("keep the last 7") and encryption all work with it. When the SD card or disk of the machine fails, the backups are still on the stick.
@@ -19,6 +24,10 @@ The stick shows up under *Settings → System → Backups* next to the backups k
 
 ### With HACS
 
+[![Open your Home Assistant instance and open this repository inside HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=SpuQ&repository=HomeAssistant-BackupStick&category=integration)
+
+Or by hand:
+
 1. In HACS, open the menu (⋮) → **Custom repositories**.
 2. Add `https://github.com/SpuQ/HomeAssistant-BackupStick` with type **Integration**.
 3. Find **Backup Stick** in HACS, download it, and restart Home Assistant.
@@ -29,8 +38,10 @@ Copy `custom_components/backup_stick` into the `custom_components` folder of you
 
 ## Setup
 
+[![Open your Home Assistant instance and start setting up Backup Stick.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=backup_stick)
+
 1. Plug the stick into the Home Assistant machine.
-2. Go to **Settings → Devices & services → Add integration** and choose **Backup Stick**. Pick the stick from the list. Disks that Home Assistant OS itself runs from are never offered.
+2. Go to **Settings → Devices & services → Add integration** and choose **Backup Stick**, or use the button above. Pick the stick from the list. Disks that Home Assistant OS itself runs from are never offered.
 3. Go to **Settings → System → Backups → Backup settings**, and tick the stick under **Locations**.
 
 Save the **encryption key** Home Assistant shows in the backup settings. Backups on the stick are encrypted with it, and can't be restored without it.
