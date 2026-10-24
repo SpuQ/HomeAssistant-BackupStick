@@ -1,9 +1,11 @@
-# Backup Stick
+# HA: backup stick
 
 [![HACS Custom](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
 [![GitHub Release](https://img.shields.io/github/v/release/SpuQ/HomeAssistant-BackupStick)](https://github.com/SpuQ/HomeAssistant-BackupStick/releases)
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-2026.10%2B-41BDF5?logo=home-assistant&logoColor=white)](https://www.home-assistant.io)
 [![License](https://img.shields.io/github/license/SpuQ/HomeAssistant-BackupStick)](LICENSE.txt)
+
+<img src="custom_components/backup_stick/brand/icon@2x.png" alt="Backup Stick icon" align="right" width="128"/>
 
 **Backup Stick** is a custom integration for Home Assistant that adds a USB stick, plugged into the Home Assistant machine, as a backup location.
 
